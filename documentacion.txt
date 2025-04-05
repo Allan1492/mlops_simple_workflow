@@ -1,0 +1,21 @@
+VARIABLES DE ENTRADA
+
+El modelo utiliza 30 características numéricas extraídas de imágenes de tumores de mama (del dataset data.csv).
+
+Radio (mean, se, worst)
+Textura (mean, se, worst)
+Perímetro (mean, se, worst)
+Área (mean, se, worst)
+Suavidad (mean, se, worst)
+Compacidad (mean, se, worst)
+Concavidad (mean, se, worst)
+Puntos cóncavos (mean, se, worst)
+Simetría (mean, se, worst)
+Dimensión fractal (mean, se, worst)
+
+ VARIABLES DE SALIDA
+ diagnosis: Variable binaria preprocesada como:
+
+1 → Tumor maligno ("M" en el dataset original).
+
+0 → Tumor benigno ("B" en el dataset original).
